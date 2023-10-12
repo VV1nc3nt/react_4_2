@@ -1,0 +1,49 @@
+#root {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.input-field {
+  width: 150px;
+  padding: 16px;
+}
+
+.progress-form {
+  display: flex;
+}
+
+.input-wrapper {
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.label {
+  margin-bottom: 8px;
+}
+
+.progress-btn {
+  width: 60px;
+  height: 53px;
+  align-self: flex-end;
+}
+
+.walk-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.walk-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  width: 470px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
